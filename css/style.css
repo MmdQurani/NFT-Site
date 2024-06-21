@@ -1,0 +1,20 @@
+:root {
+    --Basic_color:#A259FF;
+    --Background:#2B2B2B;
+}
+
+.background_color{
+    background-color: var(--Background);
+}
+
+.bg_color_basic{
+    background-color: var(--Basic_color);
+}
+
+.text_color_basic{
+    color: var(--Basic_color);
+}
+
+#offcanvas-box {
+    background-color: var(--Basic_color);
+}
