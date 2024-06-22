@@ -90,6 +90,12 @@ body {
     }
 }
 
+@media only screen and (max-width:576.80px) {
+    .card_size_sm{
+        width: 280px !important;
+    }
+}
+
 /* 834 */
 /* 1280 */
 /* 375 */
