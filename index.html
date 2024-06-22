@@ -13,14 +13,18 @@
 
     <div class="container-fluid background_color position-absolute w-100 h-100">
         <header class="container-fluid px-4">
-            <nav class="navbar navbar-expand-xl d-flex align-items-center justify-content-between">
+
+            <nav class="navbar container-fluid navbar-expand-xl d-flex align-items-center justify-content-between py-4">
                 <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
                     <img src="img/icon/Storefront.png" alt="">
-                    <span>NFT Marketplace</span>
+                    <span style="font-weight: 500;">NFT Marketplace</span>
                 </a>
                 <ul class="navbar-nav d-none d-sm-none d-xl-flex flex-row-reverse column-gap-3">
                     <li class="nav-item">
-                        <a href="#" class="btn bg_color_basic text-light nav-link">Sign in</a>
+                        <a href="#" class="btn bg_color_basic text-light nav-link px-4 py-2">
+                            <img src="img/icon/User.png" alt="">
+                            <span>Sign in</span>
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link text-light">Connect a wallet</a>
@@ -36,15 +40,93 @@
                 <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-box">
                     <img src="img/icon/Burger Menu.png" alt="">
                 </button>
-                <div class="offcanvas offcanvas-start d-xl-none d-flex d-sm-flex" id="offcanvas-box">
-                    <h1 class="text-light">hello</h1>
+                <div class="offcanvas offcanvas-start d-xl-none d-flex d-sm-flex px-3" id="offcanvas-box">
+                    <div class="d-flex align-items-center justify-content-between py-2">
+                        <a class="navbar-brand text-light d-flex align-items-center column-gap-2">
+                            <img src="img/icon/Storefront-2.png" alt="">
+                            <span style="font-weight: 500;">NFT Marketplace</span>
+                        </a>
+                        <button class="btn-close" data-bs-toggle="offcanvas"></button>
+                    </div>
+                    <hr style="width: 80%;" class="mx-auto shadow">
+                    <ul class="navbar-nav d-flex row-gap-2 d-sm-flex d-xl-none column-gap-3 flex-column-reverse">
+                        <li class="nav-item">
+                            <a href="#" class="btn background_color text-light nav-link">Sign in</a>
+                        </li>
+                        <hr style="width: 80%;" class="mx-auto shadow">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light rounded-3 px-2">Connect a wallet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light rounded-3 px-2">Rankings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light rounded-3 px-2 active">Marketplace</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
 
-            <div>
-
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-6 d-flex flex-column row-gap-4">
+                        <div class="text-light d-flex flex-column row-gap-2 align-items-center justify-content-center px-xxl-5">
+                            <h1 style="font-weight: 700; font-size: 60px;">Discover <br> digital art & Collect NFTs</h1>
+                            <span class="text-light-50 fs-4">NFT marketplace UI created with Anima for Figma. Collect,
+                                buy and sell art from more than 20k NFT artists.</span>
+                        </div>
+                        <div class="px-xxl-5">
+                            <div>
+                                <a href="#" class="btn bg_color_basic text-light px-5 py-3 d-inline-flex align-items-center rounded-4 column-gap-2">
+                                    <img src="img/icon/RocketLaunch.png" width="24" alt="">
+                                    <span class="fs-5">Get Started</span>
+                                </a>
+                            </div>
+                            <div class="py-5">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="text-light">
+                                            <span class="fs-2">240+</span>
+                                            <p class="fs-5">total sale</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="text-light">
+                                            <span class="fs-2">240+</span>
+                                            <p class="fs-5">total sale</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="text-light">
+                                            <span class="fs-2">240+</span>
+                                            <p class="fs-5">total sale</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6" style="height: max-content;">
+                        <div class="position-relative w-100 h-100 d-flex justify-content-center ms-4">
+                            <div class="card rounded-5 overflow-hidden border-0 d-flex" style="width: 510px;">
+                                <div>
+                                    <img src="img/img-header/Image Placeholder.png" class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body border-0 d-flex flex-column background_color_two text-light py-4">
+                                    <span class="fs-5">Space Walking</span>
+                                    <a href="#" class="text-light text-decoration-none d-flex align-items-center column-gap-2 mt-2">
+                                        <img src="img/img-topProph/Avatar Placeholder-9.png" width="24" alt="">
+                                        <span>Animakid</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </header>
+
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>

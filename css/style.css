@@ -3,8 +3,44 @@
     --Background:#2B2B2B;
 }
 
+@font-face {
+    font-family: fontSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../font/WorkSans-Black.ttf') , format('ttf');
+}
+
+@font-face {
+    font-family: fontSans;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/WorkSans-Bold.ttf') , format('ttf');
+}
+
+@font-face {
+    font-family: fontSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/WorkSans-Medium.ttf') , format('ttf');
+}
+
+.fontSans {
+    font-family: fontSans;
+}
+
+body {
+    font-family: fontSans;
+}
+
 .background_color{
     background-color: var(--Background);
+}
+.text_bg_color{
+    color: var(--Background);
+}
+
+.background_color_two {
+    background-color: #3B3B3B;
 }
 
 .bg_color_basic{
@@ -13,6 +49,14 @@
 
 .text_color_basic{
     color: var(--Basic_color);
+}
+
+.nav-link.active{
+    background-color: var(--Background);
+}
+
+.text-light-50{
+    color: #e4e4e4c9;
 }
 
 #offcanvas-box {
