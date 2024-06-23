@@ -88,15 +88,15 @@ body {
     .card_size{
         width: 410px !important;
     }
-    .d_center {
+    /* .d_center {
         display: flex !important;
         justify-content: center;
-    }
+    } */
     .title_sub_text {
-        font-size: 30px !important;
+        font-size: 40px !important;
     }
     .sub_text {
-        font-size: 17px !important;
+        font-size: 22px !important;
     }
 }
 
