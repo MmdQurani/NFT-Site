@@ -93,10 +93,13 @@ body {
         justify-content: center;
     } */
     .title_sub_text {
-        font-size: 40px !important;
+        font-size: 28px !important;
     }
     .sub_text {
-        font-size: 22px !important;
+        font-size: 18px !important;
+    }
+    .wrap_flex {
+        flex-wrap: wrap;
     }
 }
 
