@@ -67,22 +67,22 @@ body {
 }
 
 @media only screen and (max-width:991.80px) {
-    .fs_title_991 {
+    .fs_title {
         font-size: 50px !important;
     }
-    .fs_text_991{
+    .fs_text{
         font-size: 1.125rem !important;
     }
-    .card_size_lg {
+    .card_size {
         width: 510px !important;
     }
 }
 
 @media only screen and (max-width:768.80px) {
-    .fs_title_991 {
+    .fs_title {
         font-size: 45px !important;
     }
-    .fs_text_991{
+    .fs_text{
         font-size: 1.125rem !important;
     }
     .card_size{
@@ -91,10 +91,139 @@ body {
 }
 
 @media only screen and (max-width:576.80px) {
-    .card_size_sm{
+    .card_size{
         width: 280px !important;
     }
+
+    .f_size_title {
+        font-size: 30px !important;
+    }
+
+    .f_size_subtitle {
+        font-size: 17px !important;
+    }
+
+    .f_size_text {
+        font-size: 14px !important;
+    }
 }
+
+@media only screen and (max-width:376.80px) {
+    .p_y_nav {
+      padding-top: 14px !important;  
+      padding-bottom: 14px !important;
+    }
+
+    .card_size {
+        width: 220px !important;
+    }
+
+    .p_y_card {
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .f_size_brand {
+        font-size: 18px !important;
+    }
+
+    .logo_size {
+        width: 24px;
+    }
+
+    .fs_title {
+        font-size: 24px !important;
+    }
+
+    .f_size_subtitle{
+        font-size: 14px !important;
+    }
+
+    .f_size_text {
+        font-size: 12px !important;
+    }
+
+    .f_size_text_num {
+        font-size: 20px !important;
+    }
+
+    .f_size_btn {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width:318.80px) {
+    .card_size {
+        width: 190px !important;
+    }
+
+    .f_size_brand {
+        font-size: 12px !important;
+    }
+
+    .logo_size {
+        width: 22px;
+    }
+
+    .fs_title {
+        font-size: 22px !important;
+    }
+
+    .f_size_subtitle{
+        font-size: 12px !important;
+    }
+
+    .f_size_text {
+        font-size: 10px !important;
+    }
+
+    .f_size_btn {
+        font-size: 13px !important;
+    }
+
+    .f_size_btn_icon {
+        width: 15px !important;
+    }
+
+    .f_size_text_num {
+        font-size: 18px !important;
+    }
+
+    .f_size_text_card_one {
+        font-size: 14px !important;
+    }
+
+    .f_size_text_card_two {
+        font-size: 12px !important;
+    }
+
+    .size_img_card {
+        width: 17px !important;
+    }
+
+    .p_y_card {
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+    }
+}
+
+/* @media only screen and (max-width:396.80px) {
+    .f_size_brand_xs{
+        font-size: 17px;
+    }
+
+    .card_size_sm {
+        width: 220px !important;
+    }
+
+    .f_size_text_sm {
+        font-size: 12px !important;
+    }
+
+    .f_size_btn_xs {
+        font-size: 14px !important;
+    }
+} */
 
 /* 834 */
 /* 1280 */
