@@ -42,8 +42,20 @@ body {
 .background_color_two {
     background-color: #3B3B3B;
 }
+.text_color_two {
+    color: #3B3B3B;
+}
 
 .bg_color_basic{
+    background-color: var(--Basic_color);
+}
+
+.bg_outline_basic {
+    border: 2px solid #A259FF;
+    color: #fff;
+    transition: background-color 300ms;
+}
+.bg_outline_basic:hover {
     background-color: var(--Basic_color);
 }
 
@@ -59,11 +71,60 @@ body {
     color: #e4e4e4c9;
 }
 
+.badge_style {
+    top: 18px !important;
+    left: 20px !important;
+    font-size: 18px !important;
+}
+
+.img_size_card_top_creators{
+    width: 100% !important;
+}
+
+.title_top_creators{
+    max-width: 100% !important;
+}
+
+.fs_creators_title {
+    font-size: 22px !important;
+}
+.fs_creators_subtitle {
+    font-size: 14px !important;
+}
+
+.fs_btn_creators {
+    font-size: 20px !important;
+}
+
+.fs_icon_btn_creators {
+    width: 20px;
+}
+
 #offcanvas-box {
     background-color: var(--Basic_color);
 }
 #title {
     font-weight: 700; font-size: 60px;
+}
+
+@media only screen and (max-width:1199.80px) {
+    .img_size_card_top_creators{
+        width: 80px !important;
+    }
+    .box_items_creators {
+        width: 100% !important;
+    }
+    .fs_creators_title {
+        font-size: 22px !important;
+    }
+    .fs_creators_subtitle {
+        font-size: 14px !important;
+    }
+    .badge_style {
+        top: 14px !important;
+        left: 4px !important;
+        font-size: 18px !important;
+    }
 }
 
 @media only screen and (max-width:991.80px) {
@@ -75,6 +136,26 @@ body {
     }
     .card_size {
         width: 510px !important;
+    }
+    .img_size_card_top_creators{
+        width: 60px !important;
+    }
+    .fs_creators_title {
+        font-size: 18px !important;
+    }
+    .fs_creators_subtitle {
+        font-size: 11px !important;
+    }
+    .badge_style {
+        top: 18px !important;
+        left: 4px !important;
+        font-size: 14px !important;
+    }
+    .fs_btn_creators {
+        font-size: 14px !important;
+    }
+    .title_top_creators{
+        max-width: 50% !important;
     }
 }
 
@@ -100,6 +181,9 @@ body {
     }
     .wrap_flex {
         flex-wrap: wrap;
+    }
+    .title_top_creators{
+        max-width: 50% !important;
     }
 }
 
@@ -148,6 +232,18 @@ body {
   
       .f_size_btn {
           font-size: 20px !important;
+      }
+      .title_sub_text {
+        font-size: 24px !important;
+      }
+      .sub_text {
+        font-size: 16px !important;
+      }
+      .fs_btn_creators {
+        font-size: 22px !important;
+      }
+      .title_top_creators{
+          max-width: 90% !important;
       }
 }
 
