@@ -77,9 +77,7 @@ body {
     font-size: 18px !important;
 }
 
-.img_size_card_top_creators{
-    width: 100% !important;
-}
+
 
 .title_top_creators{
     max-width: 100% !important;
@@ -108,9 +106,7 @@ body {
 }
 
 @media only screen and (max-width:1199.80px) {
-    .img_size_card_top_creators{
-        width: 80px !important;
-    }
+
     .box_items_creators {
         width: 100% !important;
     }
@@ -128,18 +124,14 @@ body {
 }
 
 @media only screen and (max-width:991.80px) {
-    .fs_title {
+    /* .fs_title {
         font-size: 50px !important;
-    }
+    } */
     .fs_text{
         font-size: 1.125rem !important;
     }
-    .card_size {
-        width: 510px !important;
-    }
-    .img_size_card_top_creators{
-        width: 60px !important;
-    }
+
+
     .fs_creators_title {
         font-size: 18px !important;
     }
@@ -159,20 +151,14 @@ body {
     }
 }
 
-@media only screen and (max-width:768.80px) {
+@media only screen and (max-width:769.80px) {
     .fs_title {
         font-size: 45px !important;
     }
     .fs_text{
         font-size: 1.125rem !important;
     }
-    .card_size{
-        width: 410px !important;
-    }
-    /* .d_center {
-        display: flex !important;
-        justify-content: center;
-    } */
+
     .title_sub_text {
         font-size: 28px !important;
     }
@@ -195,15 +181,6 @@ body {
     .p_y_nav {
         padding-top: 14px !important;  
         padding-bottom: 14px !important;
-      }
-  
-      .card_size {
-          width: 280px !important;
-      }
-  
-      .p_y_card {
-          padding-top: 14px !important;
-          padding-bottom: 14px !important;
       }
   
       .f_size_brand {
