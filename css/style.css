@@ -68,7 +68,7 @@ body {
 }
 
 .text-light-50{
-    color: #e4e4e4c9;
+    color: #e4e4e4b4;
 }
 
 .badge_style {
@@ -155,6 +155,9 @@ body {
 }
 .w_sm_100_img_form {
     width: 50%;
+}
+.w_lg_card_blog {
+    width: 100%;
 }
 
 
@@ -285,6 +288,9 @@ body {
     .fs_title_form_box {
         font-size: 1.85rem !important;
     }
+    .w_lg_card_blog {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width:575.80px) {
@@ -356,6 +362,9 @@ body {
     }
     .item_left_form {
         width: 80% !important;
+    }
+    .w_lg_card_blog {
+        width: 100%;
     }
 }
 
