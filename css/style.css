@@ -138,6 +138,25 @@ body {
 .fs_work_card_subtitle {
     font-size: 1.25rem !important;
 }
+.item_left_form {
+    width: 45% !important;
+}
+.input_group_box {
+    max-width: 200px !important;
+}
+.input_group_box::placeholder {
+    font-size: 0.85rem;
+}
+/* .fs_lg_form_box {
+    font-size: 1rem !important;
+} */
+.fs_title_form_box {
+    font-size: 2.175rem !important;
+}
+.w_sm_100_img_form {
+    width: 50%;
+}
+
 
 /* .img_box_size_card_top_creators {
     width: 100% !important;
@@ -263,6 +282,9 @@ body {
     .fs_work_card_subtitle {
         font-size: 1.35rem !important;
     }
+    .fs_title_form_box {
+        font-size: 1.85rem !important;
+    }
 }
 
 @media only screen and (max-width:575.80px) {
@@ -328,6 +350,12 @@ body {
     }
     .fs_creators_subtitle {
         font-size: 14px !important;
+    }
+    .w_sm_100_img_form {
+        width: 100%;
+    }
+    .item_left_form {
+        width: 80% !important;
     }
 }
 
