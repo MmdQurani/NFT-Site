@@ -291,6 +291,9 @@ body {
     .w_lg_card_blog {
         width: 80%;
     }
+    .fs_time_text {
+        font-size: 12px !important;
+    }
 }
 
 @media only screen and (max-width:575.80px) {
