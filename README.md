@@ -3,7 +3,7 @@
 <hr>
 
 <h3>
-  <a href="https://mmd-web.github.io/NFT-Site/">review online</a>
+  <a href="https://mmdqurani.github.io/NFT-Site/">review online</a>
 </h3>
 
 <hr>
